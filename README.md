@@ -8,6 +8,8 @@
 ✅ Добавить поддержку переворота экрана (режимы portrait и landscape) без перезапуска webview и сохранением состояния.<br>
 ✅ Установить любую иконку приложения.<br>
 
+<h3 align="left"><a href="https://github.com/vitaliy-anatolievych/TestTaskGravity/blob/master/app-debug.apk" target="_blank">Debug-version</a></h3> 
+<h3 align="left"><a href="https://github.com/vitaliy-anatolievych/TestTaskGravity/blob/master/app-release-unsigned.apk" target="_blank">Release-version</a></h3> 
 
 <h3 align="left">Presentation:</h3>
 
