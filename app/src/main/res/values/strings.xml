@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestTaskGravity</string>
+
+    <string name="load">Завантаження</string>
+    <string name="storage_error">Виникла помилка з внутрішнім сховищем</string>
+    <string name="unregistered_error">Невідома помилка, зверніться до розробників</string>
+    <string name="user_is_not_exist">Користувача не знайдено, створюємо нового користувача</string>
+    <string name="internet_connection_error">Помилка з\'єднання перевірте інтернет</string>
+    <string name="new_user_created">Нового користувача створено</string>
+    <string name="welcome">Вітаємо!</string>
+</resources>
