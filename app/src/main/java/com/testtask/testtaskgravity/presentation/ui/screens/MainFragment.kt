@@ -1,14 +1,13 @@
 package com.testtask.testtaskgravity.presentation.ui.screens
 
 import android.os.Bundle
-import android.util.SparseArray
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebChromeClient
-import android.webkit.WebHistoryItem
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.testtask.testtaskgravity.databinding.FragmentMainBinding
 import com.testtask.testtaskgravity.domain.models.User
@@ -29,7 +28,7 @@ class MainFragment : Fragment(), OnBackPressedDelegation by OnBackPressedDelegat
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        (activity as? AppCompatActivity)?.supportActionBar?.hide()
         user = arguments?.get(USER_KEY) as User
     }
 
